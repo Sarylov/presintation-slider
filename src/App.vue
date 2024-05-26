@@ -1,5 +1,7 @@
 <template>
-  <div class="h-screen w-full relative flex justify-end items-center p-4">
+  <div
+    class="h-screen w-full relative flex justify-end items-center p-4 flex-col lg:flex-row"
+  >
     <img
       v-for="(image, index) in images"
       :key="index"
@@ -8,7 +10,7 @@
       :class="{ active: currentSlide === index }"
       class="opacity-0 absolute left-0 top-0 object-contain w-full h-full -z-10"
     />
-    <div class="z-10 flex flex-col gap-2">
+    <div class="z-10 flex lg:flex-col gap-2 flex-wrap">
       <button
         v-for="(image, index) in images"
         class="btn"
