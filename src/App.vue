@@ -52,7 +52,7 @@ import image10 from "@/assets/images/image10.png";
 export default {
   data() {
     return {
-      currentSlide: 1,
+      currentSlide: 0,
       images: [
         image1,
         image2,
