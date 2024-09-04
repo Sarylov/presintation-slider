@@ -4,9 +4,9 @@ import { createPinia } from "pinia";
 import App from "@/App.vue";
 import router from "@/router";
 import "@/assets/styles/index.css";
-import { inject } from "@vercel/analytics";
+// import { inject } from "@vercel/analytics";
 
-inject();
+// inject();
 
 const pinia = createPinia();
 
