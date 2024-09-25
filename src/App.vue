@@ -13,21 +13,21 @@
           class="opacity-0 absolute left-0 top-0 object-contain w-full h-full -z-10"
         />
       </div>
-      <div class="flex flex-col lg:items-end">
+      <div class="flex w-full flex-col lg:items-end">
         <h2>Этажи:</h2>
-        <div class="z-10 flex lg:flex-col gap-2 flex-wrap">
+        <div class="z-10 flex lg:flex-col gap-2 justify-between flex-wrap">
           <button
             v-for="index in 9"
-            class="btn"
+            class="btn btn-sm btn-square"
             :class="{ activeBtn: currentSlide === index - 1 }"
             @click="setCurrentSlide(index - 1)"
           >
             {{ index }}
           </button>
         </div>
-        <div class="divider"></div>
+        <div class="divider h-1"></div>
         <button
-          class="btn"
+          class="btn btn-sm"
           :class="{ activeBtn: currentSlide === 9 }"
           @click="setCurrentSlide(9)"
         >
