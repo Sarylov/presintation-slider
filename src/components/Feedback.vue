@@ -19,9 +19,9 @@
       <div id="feedback" class="modal">
         <div class="modal-box">
           <iframe
-            src="https://forms.yandex.ru/u/66d8dd6a73cee7933e0b3b81/?iframe=1"
+            src="https://forms.yandex.ru/cloud/66f4805c5d2a06268aebb332/?iframe=1"
             frameborder="0"
-            name="ya-form-66d8dd6a73cee7933e0b3b81"
+            name="ya-form-66f4805c5d2a06268aebb332"
             width="100%"
             height="640px"
           ></iframe>
@@ -34,5 +34,3 @@
     </div>
   </div>
 </template>
-
-<script></script>
